@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up</title>
+
+    <style>
+ body{
+      background-color:  #FFF0F5;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+.signUp
+  {
+      border: 2px solid LightGray;
+      box-sizing: content-box;  
+      width: 450px;
+      height: 600px;
+      padding-top:1%;
+      padding-left:10px;
+      color:white;
+      background-color:     #FFB6C1;
+      margin-left: 38%;
+      margin-top: 6%;
+      align:center;
+      }
+
+ a
+  {
+
+      color: #0000FF;
+  }
+  
+ input[type=text], input[type=password] 
+ {
+      width: 80%;
+      padding: 7px 20px;
+      margin: 8px 1px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: center;
+      
+    }
+
+ button 
+ {
+      background-color:   #F08080;
+      color: white;
+      padding: 10px 20px;
+      margin: 8px 1px ;
+      border: none;
+      cursor: pointer;
+      width: 150px;
+    }
+
+ button:hover 
+ {
+      opacity: 0.8;
+  }
+
+    </style>
+  </head>
+  <body  >
+    
+      
+<div class="signUp">
+     <center> <h1>Sign up</h1></center>
+     <p>Please fill in this form to create an account.</p><hr><br>
+   
+  <form action="sessionConfirmation" method="get">
+     <label for="Fname">First name:</label>
+   <br>
+     <input type="text" id="Fname" name="Frname" placeholder=" Enter first name" required><br>
+  
+     <label for="Lname">Last name:</label>
+   <br>
+     <input type="text" id="Lname" name="Lrname"placeholder=" Enter last name" required><br>
+  
+     <label for="age">Age:</label>
+   <br>
+      <input type="text" id="age" name="Age" placeholder=" Enter age" required><br>
+  
+      <label for="Email">Email:</label>
+   <br>
+     <input type="text" id="Email" name="emailSign" placeholder=" Enter email" required><br>
+  
+     <label for="Pass">Password:</label>
+   <br>
+    <input type="password" id="Pass" name="passwordSign" placeholder=" Enter Password" required>
+    <p >Have account? <a href="logIn.html">Login</a> </p>
+    <center><button type="submit">Sign up</button></center><br>
+
+  </form>
+</div>
+
+  </body>
+</html>
